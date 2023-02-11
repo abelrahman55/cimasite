@@ -1,0 +1,23 @@
+.rejectedMovie{
+  width: 250px;
+  position: relative;
+  height: 400px;
+}
+.rejectedMovie img{
+  width: 100%;
+  border-radius: 15px;
+  height: 350px;
+}
+.rejectedMovie button{
+  border: none;
+  padding: 5px;
+  font-size: 30px;
+  background-color: transparent;
+}
+.rejectedMovie button i{
+  color: red;
+  cursor: pointer;
+}
+.rejectedMovie h2{
+  font-size: 18px;
+}

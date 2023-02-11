@@ -1,0 +1,56 @@
+.movie-card{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.movie-card .movie-img{
+  width: 85px;
+}
+.movie-card .movie-img img{
+  width: 100%;
+  border-radius: 10px;
+}
+.movie-card .movie-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.controls-btn {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.fealings {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 3px;
+}
+.fealings button{
+  padding: 10px;
+  font-size: 19px;
+  background-color: transparent;
+  border: none;
+}
+.fealings button i{
+  cursor: pointer;
+  display: inline-block;
+}
+.fealings button:disabled i{
+color: red;
+}
+@media (max-width:767px){
+  .movie-card .movie-img {
+    width: 80%;
+  }
+  .movie-card{
+    justify-content: center;
+  }
+  .movie-card .movie-info{
+    text-align: center;
+  }
+  .movie-card .movie-information{
+    align-items: center;
+  }
+  .controls-btn{justify-content: center;}
+}

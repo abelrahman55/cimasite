@@ -1,0 +1,12 @@
+.watchedCard{
+  width: 200px;
+  position: relative;
+}
+.watchedCard img{
+  width: 100%;
+}
+.watchedCard:hover .ctrl-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
